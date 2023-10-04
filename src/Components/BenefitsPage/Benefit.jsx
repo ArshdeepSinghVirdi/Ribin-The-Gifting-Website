@@ -24,30 +24,39 @@ const Benefit = () => {
   };
 
   return (
-    <Stack sx={{ paddingX: '5%', paddingY: '2%', mt: { xs: '5rem', md: '1rem' } }}>
-      <Stack direction='column' alignItems='center' justifyContent='center'>
+    <Stack
+      sx={{ paddingX: "5%", paddingY: "2%", mt: { xs: "5rem", md: "1rem" } }}
+    >
+      <Stack direction="column" alignItems="center" justifyContent="center">
         <Typography
           sx={{
-            fontWeight: '700',
-            fontSize: { xs: '32px', sm: '40px', md: '60px' },
-            color: '#581781',
-            textAlign: 'center',
-            marginTop: '20px',
+            fontWeight: "700",
+            fontSize: { xs: "32px", sm: "40px", md: "60px" },
+            color: "#581781",
+            textAlign: "center",
+            marginTop: "20px",
           }}
         >
           Looking For Employee Benefits Solutions?
         </Typography>
         <Typography
           sx={{
-            fontWeight: '500',
-            fontSize: { xs: '16px', sm: '24px', md: '32px' },
-            textAlign: 'center',
-            marginTop: '20px',
+            fontWeight: "500",
+            fontSize: { xs: "16px", sm: "24px", md: "32px" },
+            textAlign: "center",
+            marginTop: "20px",
           }}
         >
-          Meet Ribin, a promising solution for Employee Benefits, crafted to cater to the needs of both HR professionals and employees.<br /><br />
-
-          Ribin's Employee Incentive and Pay Solution leverages state-of-the-art technology and expertise to simplify the management of a wide range of Employee Benefits. These benefits encompass Meal, Clothing, Fitness, Rewards, and more, and also extend to modern offerings such as Wellness, Entertainment, and Gadgets. All of this is conveniently accessible through a single gift card and an advanced mobile app.
+          Meet Ribin, a promising solution for Employee Benefits, crafted to
+          cater to the needs of both HR professionals and employees.
+          <br />
+          <br />
+          Ribin's Employee Incentive and Pay Solution leverages state-of-the-art
+          technology and expertise to simplify the management of a wide range of
+          Employee Benefits. These benefits encompass Meal, Clothing, Fitness,
+          Rewards, and more, and also extend to modern offerings such as
+          Wellness, Entertainment, and Gadgets. All of this is conveniently
+          accessible through a single gift card and an advanced mobile app.
         </Typography>
         <Container
           maxWidth="xl"
@@ -63,7 +72,7 @@ const Benefit = () => {
               sx={{
                 color: "#FFFFFF",
                 fontWeight: "700",
-                fontSize: { xs: '32px', sm: '40px', md: '48px' },
+                fontSize: { xs: "32px", sm: "40px", md: "48px" },
                 marginTop: "-2.8%",
                 marginBottom: "1.5%",
               }}
@@ -75,7 +84,10 @@ const Benefit = () => {
             <Grid container spacing={2}>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     First Name
                   </Typography>
                   <TextField
@@ -88,7 +100,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Last Name
                   </Typography>
                   <TextField
@@ -101,7 +116,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Phone Number
                   </Typography>
                   <TextField
@@ -114,7 +132,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Email Address
                   </Typography>
                   <TextField
@@ -127,7 +148,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Tell us something about your company
                   </Typography>
                   <TextField
@@ -142,7 +166,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Company Name
                   </Typography>
                   <TextField
@@ -155,7 +182,10 @@ const Benefit = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <FormControl fullWidth margin="normal">
-                  <Typography variant="h6" sx={{ color: "#DAA0FF", fontSize: "20px" }}>
+                  <Typography
+                    variant="h6"
+                    sx={{ color: "#DAA0FF", fontSize: "20px" }}
+                  >
                     Employee Count
                   </Typography>
                   <TextField
@@ -168,8 +198,15 @@ const Benefit = () => {
               </Grid>
             </Grid>
             <FormControl fullWidth margin="normal">
-              <Button type="submit" variant="contained" sx={{ bgcolor: '#DAA0FF', mt: '20px' }}>
-                <Typography variant="contained" sx={{ color: "#581781", fontSize: "24px" }}>
+              <Button
+                type="submit"
+                variant="contained"
+                sx={{ bgcolor: "#DAA0FF", mt: "20px" }}
+              >
+                <Typography
+                  variant="contained"
+                  sx={{ color: "#581781", fontSize: "24px" }}
+                >
                   Submit
                 </Typography>
               </Button>
@@ -179,6 +216,6 @@ const Benefit = () => {
       </Stack>
     </Stack>
   );
-}
+};
 
 export default Benefit;

@@ -36,6 +36,7 @@ function TermsAndConditions() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <ul>
@@ -68,6 +69,7 @@ function TermsAndConditions() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <ul>
@@ -122,6 +124,7 @@ function TermsAndConditions() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <ul>
@@ -185,6 +188,7 @@ function TermsAndConditions() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <ul>
@@ -241,6 +245,7 @@ function TermsAndConditions() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           Information given on the Platform is for general information purpose

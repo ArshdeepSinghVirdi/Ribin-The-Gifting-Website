@@ -2,7 +2,6 @@ import React from "react";
 import { Typography, Box, useMediaQuery } from "@mui/material";
 
 function Refund() {
-  // Use the useMediaQuery hook to check the screen size
   const isSmallScreen = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 
   return (
@@ -12,7 +11,7 @@ function Refund() {
           sx={{
             color: "#581781",
             fontWeight: "700",
-            fontSize: { xs: "30px", md: "60px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "30px", md: "60px" }, 
             paddingX: "3.2%",
             paddingTop: "0%",
             paddingBottom: "1.7%",
@@ -25,9 +24,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           This Policy governs the cancellation and refund policy adopted by
@@ -39,9 +39,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" }, 
             paddingX: "3.2%",
             paddingTop: "1.5%",
+            textAlign: "justify",
           }}
         >
           The Portal is a service provided by CloserTech Private Limited
@@ -52,9 +53,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" }, 
             paddingX: "3.2%",
             paddingTop: "1.5%",
+            textAlign: "justify",
           }}
         >
           The terms ‘we’, ‘our(s)’ or ‘us’ wherever used hereinafter shall refer
@@ -67,10 +69,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" }, 
             paddingX: "3.2%",
             paddingTop: "1.8%",
-            // fontWeight: "bold",
+            textAlign: "justify",
           }}
         >
           Refund for purchase of gift card:
@@ -80,9 +82,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" }, 
             paddingX: "3.2%",
             paddingTop: "1.8%",
+            textAlign: "justify",
           }}
         >
           In the event that you wish to return a gift card that has been
@@ -95,10 +98,10 @@ function Refund() {
           sx={{
             color: "#000000",
             fontWeight: "500",
-            fontSize: { xs: "14px", md: "20px" }, // Adjust font size for xs and md screens
+            fontSize: { xs: "14px", md: "20px" }, 
             paddingX: "3.2%",
             paddingTop: "1.8%",
-            paddingBottom: isSmallScreen ? "2%" : "3.4%", // Adjust padding for small screens
+            paddingBottom: isSmallScreen ? "2%" : "3.4%", 
           }}
         >
           This refund shall be made towards the primary source of payment used

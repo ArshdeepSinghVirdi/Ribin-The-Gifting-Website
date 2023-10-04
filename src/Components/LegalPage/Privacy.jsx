@@ -31,6 +31,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           RIBIN (hereinafter referred to as the ‘Portal’) recognizes the
@@ -65,6 +66,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1.2%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -87,6 +89,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -113,6 +116,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -137,6 +141,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -173,6 +178,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1.3%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -196,6 +202,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -221,6 +228,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -248,6 +256,7 @@ function Privacy() {
             fontSize: { xs: "20px", md: "32px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           3. USE OF YOUR PERSONAL INFORMATION:
@@ -259,6 +268,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1.5%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -282,6 +292,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -305,6 +316,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -328,6 +340,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -352,6 +365,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -374,6 +388,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -399,6 +414,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
@@ -426,6 +442,7 @@ function Privacy() {
             fontSize: { xs: "20px", md: "32px" },
             paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           4. SHARING OF INFORMATION WITH THIRD-PARTIES:
@@ -437,6 +454,7 @@ function Privacy() {
             fontSize: { xs: "15px", md: "20px" },
             paddingX: "3.2%",
             paddingTop: "1.5%",
+            textAlign: "justify",
           }}
         >
           We may share information with third parties in the following ways:
@@ -446,8 +464,9 @@ function Privacy() {
             color: "#000000",
             fontWeight: "500",
             fontSize: { xs: "15px", md: "20px" },
-            paddingLeft: "5%",
+            paddingX: "3.2%",
             paddingTop: "1%",
+            textAlign: "justify",
           }}
         >
           <Typography
